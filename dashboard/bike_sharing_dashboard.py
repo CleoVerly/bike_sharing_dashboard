@@ -11,8 +11,8 @@ st.title("📊 Bike Sharing Data Analysis")
 # Load Dataset
 @st.cache_data
 def load_data():
-    day_df = pd.read_csv("C:\\Users\\Leviathans\\Downloads\\Bike-sharing-dataset\\dashboard\\day.csv")
-    hour_df = pd.read_csv("C:\\Users\\Leviathans\\Downloads\\Bike-sharing-dataset\\dashboard\\hour.csv")
+    day_df = pd.read_csv("data/day.csv")
+    hour_df = pd.read_csv("data/hour.csv")
     
     day_df["dteday"] = pd.to_datetime(day_df["dteday"])
     hour_df["dteday"] = pd.to_datetime(hour_df["dteday"])
