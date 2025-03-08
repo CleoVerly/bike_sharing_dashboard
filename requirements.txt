@@ -2,7 +2,6 @@ Babel==2.12.1
 matplotlib==3.8.0
 numpy==1.26.4
 pandas==2.1.4
-streamlit
+setuptools
 scikit-learn
-seaborn
-setuptools>=68.0.0
+streamlit
